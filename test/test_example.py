@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 def test_google_search():
     with sync_playwright() as p:
         # 브라우저 실행
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True) #False로 바꾸면 브라우저 실제로 실행됨
         page = browser.new_page()
 
         # Google로 이동
