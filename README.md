@@ -8,3 +8,5 @@ source path/to/venv/bin/activate
 ```
 python3 {파일명}.py
 ```
+
+* playwright.sync_api 노란줄 떠도 실행됨 !
