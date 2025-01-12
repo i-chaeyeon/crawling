@@ -19,4 +19,6 @@
 # 조회수
 //*[@id="jwxe_main_content"]/div/div/div[1]/div[1]/ul/li[{1부터 10사이의 숫자}]/dl/dd/ul/li[4]/span
 
+# 연결 URL
+//*[@id="jwxe_main_content"]/div/div/div[1]/div[1]/ul/li[1]/dl/dt/a
 ```
