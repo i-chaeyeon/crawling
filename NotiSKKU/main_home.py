@@ -7,6 +7,7 @@ def get_notice():
         page = browser.new_page()
 
         # 공지 페이지로 이동
+        # offset = (페이지 번호 -1)*10
         print("공지 페이지로 이동 중...")
         notice_url = "https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=list&&articleLimit=10&article.offset=0"
         page.goto(notice_url)
